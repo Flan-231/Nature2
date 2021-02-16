@@ -1,0 +1,75 @@
+body {
+ background-color:  #99ccff;
+ set="default.asp" (500px,500px);
+ 
+}
+p.one {
+  border-style: solid;
+  border-color: black;
+}
+h1 {text-align: center; font-family:courier;}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #a1c942;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #777;
+  padding: 20px;
+}
+
+
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #6acc84;
+  height: 300px; 
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+ 
+}
+
+footer {
+  background-color: #90918a;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+img {
+
+ float: left;
+  width: 30%;
+  height: 300px; 
+  background: #777;
+  padding: 20px;
+}
